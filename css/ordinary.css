@@ -1,0 +1,43 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\000033}}
+.Ordere {
+  width: 100%;
+  height: 1.42666667rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\000038}}
+.Ordere ul {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\0000312}}
+.Ordere ul li {
+  width: 25%;
+  height: 1.42666667rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\0000318}}
+.Ordere ul li a img {
+  width: 0.61333333rem;
+  height: 0.64rem;
+  display: block;
+  background-size: 100% 100%;
+  margin-top: 0.21333333rem;
+  margin-left: 0.98666667rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\0000328}}
+.Ordere ul li a b {
+  width: 100%;
+  height: 0.24rem;
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.26666667rem;
+  text-align: center;
+  line-height: 0.24rem;
+  float: left;
+  color: #aaaaaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/ordinary\.less}line{font-family:\0000339}}
+.Ordere ul li a .wd {
+  color: #b8123e;
+}

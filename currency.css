@@ -1,0 +1,770 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+figcaption,
+figure,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1 Lucida Grande, 'Microsoft YaHei', "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: "Courier New", Courier, monospace;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+q:before,
+q:after {
+  content: '';
+}
+legend {
+  color: #000000;
+}
+fieldset,
+img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+}
+* {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.head_box {
+  width: 100%;
+  height: 3.97333333rem;
+  background: #b8123e;
+  position: relative;
+}
+.head_box .top {
+  width: 90%;
+  height: 2.58666667rem;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+.head_box .top .topA {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-size: 100% 100%;
+  float: left;
+}
+.head_box .top h1 {
+  width: 60%;
+  height: 0.46666667rem;
+  display: inline-block;
+  float: left;
+  color: #fff;
+  font-size: 0.45333333rem;
+  font-weight: 300;
+  margin-top: 0.33333333rem;
+  margin-left: 0.2rem;
+}
+.head_box .top b {
+  width: 6.33333333rem;
+  height: 0.32rem;
+  color: #fff;
+  font-size: 0.30666667rem;
+  margin-top: 0.28rem;
+  font-weight: 200;
+  line-height: 0.32rem;
+  float: left;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.2rem;
+}
+.head_box .top a {
+  width: 0.24rem;
+  height: 0.4rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0.76rem;
+}
+.head_box .top a img {
+  width: 0.24rem;
+  height: 0.4rem;
+  background-size: 100% 100%;
+}
+.Order {
+  width: 100%;
+  height: 5.29333333rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+  position: relative;
+}
+.Order .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.Order .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+.Order .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+.Order .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+.Order .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+.Order .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+.Orderb {
+  width: 100%;
+  height: 3.96rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+.Orderb .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.Orderb .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+.Orderb .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+.Orderb .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+.Orderb .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+.Orderb .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+.Orderc {
+  width: 100%;
+  height: 3.96rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+.Orderc .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.Orderc .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+.Orderc .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+.Orderc .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+.Orderc .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+.Orderc .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+.Orderc .Orderd {
+  width: 100%;
+  height: 1.30666667rem;
+  text-align: center;
+  line-height: 1.30666667rem;
+}
+.Orderc .Orderd p {
+  width: 100%;
+  height: 1.30666667rem;
+  text-align: center;
+  line-height: 1.30666667rem;
+  color: #b8123e;
+  font-size: 0.42666667rem;
+  font-weight: 500;
+}
+.Ordere {
+  width: 100%;
+  height: 1.42666667rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+.Ordere ul {
+  width: 100%;
+}
+.Ordere ul li {
+  width: 25%;
+  height: 1.42666667rem;
+  float: left;
+}
+.Ordere ul li img {
+  width: 0.58666667rem;
+  height: 0.61333333rem;
+  display: block;
+  background-size: 100% 100%;
+  margin-top: 0.21333333rem;
+  margin-left: 0.98666667rem;
+  float: left;
+}
+.Ordere ul li a {
+  width: 100%;
+  height: 0.24rem;
+  display: block;
+  margin-top: 0.2rem;
+  text-align: center;
+  line-height: 0.24rem;
+  float: left;
+  color: #aaaaaa;
+}
+.Ordere ul li .wd {
+  color: #b8123e;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+figcaption,
+figure,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1 Lucida Grande, 'Microsoft YaHei', "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: "Courier New", Courier, monospace;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+q:before,
+q:after {
+  content: '';
+}
+legend {
+  color: #000000;
+}
+fieldset,
+img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+}
+* {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.header-box {
+  width: 100%;
+  height: 6rem;
+  position: relative;
+}
+.header-box .ss {
+  width: 100%;
+  height: 1.06666667rem;
+  z-index: 1000;
+  position: absolute;
+  top: 2.32rem;
+}
+.header-box .ss input {
+  width: 5.90666667rem;
+  height: 1.06666667rem;
+  position: relative;
+  text-indent: 11%;
+  line-height: 1.06666667rem;
+  border: 0;
+  outline: none;
+  margin-left: 0rem;
+  border-radius: 0 0.26666667rem 0.26666667rem 0;
+}
+.header-box .ss h1 {
+  width: 1.85333333rem;
+  height: 1.06666667rem;
+  text-align: center;
+  line-height: 1.06666667rem;
+  background: #fff;
+  color: #333333;
+  margin-left: 0.96rem;
+  float: left;
+  border-radius: 0.26666667rem 0 0 0.26666667rem;
+  display: block;
+}
+.header-box .ss b {
+  width: 1%;
+  height: 1.06666667rem;
+  float: left;
+  display: block;
+  background: #fff;
+}
+.header-box .ss b::before {
+  content: '';
+  position: relative;
+  top: 0.13333333rem;
+  width: 0.06666667rem;
+  height: 0.8rem;
+  float: left;
+  display: block;
+  background: #dcdcdc;
+}
+.header-box .ss span {
+  width: 0.41333333rem;
+  height: 0.41333333rem;
+  display: block;
+  position: absolute;
+  top: 0.37333333rem;
+  left: 3rem;
+}
+.header-box .ss span img {
+  width: 0.41333333rem;
+  height: 0.41333333rem;
+  background-size: 100% 100%;
+}
+.header-box .swiper-pagination-bullet {
+  width: 0.18666667rem;
+  height: 0.18666667rem;
+}
+.header-box .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #b8123e;
+}
+.header-box .swiper-container {
+  width: 100%;
+  height: 6rem;
+}
+.header-box .swiper-container .swiper-slide {
+  width: 100%;
+  height: 6rem;
+}
+.header-box .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 6rem;
+  background-size: 100% 100%;
+}
+.classification {
+  width: 100%;
+  height: 2.93333333rem;
+  background: #fff;
+  position: relative;
+}
+.classification ul {
+  width: 100%;
+  height: 2rem;
+  position: absolute;
+  top: 0.46666667rem;
+  display: block;
+}
+.classification ul li {
+  width: 1.66666667rem;
+  height: 1.84rem;
+  float: left;
+  margin-left: 0.64rem;
+}
+.classification ul li img {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-size: 100% 100%;
+  margin-left: 0.13333333rem;
+  display: block;
+  float: left;
+}
+.classification ul li b {
+  display: block;
+  width: 100%;
+  height: 0.33333333rem;
+  line-height: 0.29333333rem;
+  float: left;
+  text-align: center;
+  font-size: 0.34666667rem;
+  color: #333333;
+  margin-top: 0.13333333rem;
+}
+.Cultural {
+  width: 100%;
+  height: 9.06666667rem;
+  background: #fff;
+  margin-top: 0.4rem;
+}
+.Cultural .CulturalA {
+  width: 100%;
+  height: 1rem;
+  border-top: 0.01333333rem solid #dcdcdc;
+  border-bottom: 0.01333333rem solid #dcdcdc;
+}
+.Cultural .CulturalA h1 {
+  width: 1.50666667rem;
+  height: 0.33333333rem;
+  font-size: 0.37333333rem;
+  color: #333333;
+  display: block;
+  float: left;
+  margin-top: 0.33333333rem;
+  margin-left: 0.4rem;
+}
+.Cultural .CulturalA b {
+  width: 0.2rem;
+  height: 0.33333333rem;
+  margin-top: 0.33333333rem;
+  margin-right: 0.4rem;
+  float: right;
+}
+.Cultural .CulturalA b img {
+  width: 0.2rem;
+  height: 0.33333333rem;
+  background-size: 100% 100%;
+}
+.Cultural .CulturalB {
+  width: 8.8rem;
+  height: 2.70666667rem;
+  margin-left: 0.53333333rem;
+  border-bottom: 0.01333333rem solid #dcdcdc;
+}
+.Cultural .CulturalB img {
+  width: 2.18666667rem;
+  height: 2.18666667rem;
+  display: block;
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 0.24rem;
+  margin-top: 0.26666667rem;
+}
+.Cultural .CulturalB a {
+  width: 60%;
+  height: 0.46666667rem;
+  line-height: 0.46666667rem;
+  float: left;
+  display: block;
+  font-size: 0.45333333rem;
+  color: #333333;
+  margin-left: 0.61333333rem;
+  margin-top: 0.37333333rem;
+}
+.Cultural .CulturalB p {
+  width: 0.93333333rem;
+  height: 0.4rem;
+  font-size: 0.26666667rem;
+  border: 0.01333333rem solid #b8123e;
+  line-height: 0.4rem;
+  margin-left: 0.61333333rem;
+  margin-top: 0.13333333rem;
+  color: #b8123e;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+.Cultural .CulturalB .text {
+  width: 70%;
+  height: 0.30666667rem;
+  margin-top: 0.13333333rem;
+  display: block;
+  float: left;
+}
+.Cultural .CulturalB .text h2 {
+  width: 50%;
+  height: 0.30666667rem;
+  margin-left: 0.61333333rem;
+  font-size: 0.32rem;
+  float: left;
+  color: #666666;
+}
+.Cultural .CulturalB .text h3 {
+  width: 40%;
+  height: 0.30666667rem;
+  font-size: 0.32rem;
+  color: #666666;
+  float: right;
+}
+.Cultural .CulturalB .textA {
+  width: 70%;
+  height: 0.30666667rem;
+  margin-top: 0.13333333rem;
+  display: block;
+  float: left;
+}
+.Cultural .CulturalB .textA h4 {
+  width: 50%;
+  height: 0.30666667rem;
+  display: block;
+  margin-left: 0.61333333rem;
+  font-size: 0.32rem;
+  float: left;
+  color: #666666;
+}
+.Cultural .CulturalB .textA h5 {
+  width: 40%;
+  height: 0.30666667rem;
+  font-size: 0.32rem;
+  color: #666666;
+  float: right;
+}
+.Ordere {
+  width: 100%;
+  height: 1.42666667rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+.Ordere ul {
+  width: 100%;
+}
+.Ordere ul li {
+  width: 25%;
+  height: 1.42666667rem;
+  float: left;
+}
+.Ordere ul li img {
+  width: 0.58666667rem;
+  height: 0.61333333rem;
+  display: block;
+  background-size: 100% 100%;
+  margin-top: 0.21333333rem;
+  margin-left: 0.98666667rem;
+  float: left;
+}
+.Ordere ul li a {
+  width: 100%;
+  height: 0.24rem;
+  display: block;
+  margin-top: 0.2rem;
+  text-align: center;
+  line-height: 0.24rem;
+  float: left;
+  color: #aaaaaa;
+}
+.Ordere ul li .wd {
+  color: #b8123e;
+}

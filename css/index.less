@@ -1,0 +1,319 @@
+@charset "UTF-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,figcaption,figure,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1 Lucida Grande,'Microsoft YaHei',"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif}
+h1{font-size:18px;font-weight:normal}
+h2{font-size:16px;font-weight:normal}
+h3{font-size:14px;font-weight:normal}
+h4,h5,h6{font-size:100%;font-weight:normal}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
+small{font-size:12px}
+ul,ol,li{list-style:none}
+a{text-decoration:none}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}
+q:before,q:after{content:''}
+legend{color:#000}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:0;height:1px}
+*{-ms-word-break:break-all;word-break:break-all;-ms-word-wrap:break-word;word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body {
+    background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+// 头部
+@rem:75rem;
+@border:1px solid red;
+.head_box{
+    width: 100%;
+    height:298/@rem;
+    background:#b8123e;
+    position: relative;
+    .top{
+        width: 90%;
+        height: 194/@rem;
+        // background: #000;
+        // margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        
+        .topA{
+            width: 120/@rem;
+            height: 120/@rem;
+            background-size:100% 100%; 
+            // background: red;
+            float: left;
+        }
+        h1{
+            width:60%;
+            height: 35/@rem;
+            display: inline-block;
+            float: left;
+            // border: @border;
+            color: #fff;
+            font-size: 34/@rem;
+            font-weight: 300;
+            margin-top: 25/@rem;
+            margin-left: 15/@rem;
+        }
+        b{
+            width:475/@rem;
+            height: 24/@rem;
+            color: #fff;
+            font-size: 23/@rem;
+            margin-top: 21/@rem;
+            font-weight: 200;
+            line-height: 24/@rem;
+            float: left;
+            display:block;
+            // border: @border;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-left: 15/@rem;
+        }
+        a{
+            width: 18/@rem;
+            height: 30/@rem;
+            // float: right;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 57/@rem;
+            img{
+                width: 18/@rem;
+                height: 30/@rem;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}
+// 订单
+.Order{
+    width: 100%;
+    height: 397/@rem;
+    background: #fff;
+    margin-top: 20/@rem;
+    position: relative;
+    .Ordera{
+       width: 100%;
+       height:98/@rem; 
+    //    position: absolute;
+    //    top: 26/@rem;
+    //    left: 5%;
+        // margin-top: 26/@rem;
+       border-bottom:1px solid #dcdcdc;
+    //    margin-left: 5%;
+       a{
+        display: block;
+        width: 45/@rem;
+        height: 46/@rem;
+        margin-left: 5%;
+        float: left;
+        margin-top: 25/@rem;
+        img{
+            width: 45/@rem;
+            height: 46/@rem;
+            background-size:100% 100%; 
+        }
+       }
+       h1{
+           width: 50%;
+           height: 36/@rem;
+           font-size: 32/@rem;
+           font-weight: 300;
+           float: left;
+           display: block;
+           margin-top: 30/@rem;
+        //    border: @border;
+           margin-left: 30/@rem;
+
+       }
+       b{
+           width: 16/@rem;
+           height: 26/@rem;
+           float: right;
+           margin-right: 5%;
+           display: block;
+           margin-top:30/@rem; 
+           img{
+            width: 16/@rem;
+            height: 26/@rem;
+            background-size:100% 100%; 
+           }
+       }
+    }
+   
+}
+.Orderb{
+    width: 100%;
+    height: 297/@rem;
+    background: #fff;
+    margin-top: 20/@rem;
+    .Ordera{
+        width: 100%;
+        height:98/@rem; 
+     //    position: absolute;
+     //    top: 26/@rem;
+     //    left: 5%;
+         // margin-top: 26/@rem;
+        border-bottom:1px solid #dcdcdc;
+     //    margin-left: 5%;
+        a{
+         display: block;
+         width: 45/@rem;
+         height: 46/@rem;
+         margin-left: 5%;
+         float: left;
+         margin-top: 25/@rem;
+         img{
+             width: 45/@rem;
+             height: 46/@rem;
+             background-size:100% 100%; 
+         }
+        }
+        h1{
+            width: 50%;
+            height: 36/@rem;
+            font-size: 32/@rem;
+            font-weight: 300;
+            float: left;
+            display: block;
+            margin-top: 30/@rem;
+         //    border: @border;
+            margin-left: 30/@rem;
+ 
+        }
+        b{
+            width: 16/@rem;
+            height: 26/@rem;
+            float: right;
+            margin-right: 5%;
+            display: block;
+            margin-top:30/@rem; 
+            img{
+             width: 16/@rem;
+             height: 26/@rem;
+             background-size:100% 100%; 
+            }
+        }
+     }
+}
+.Orderc{
+    width: 100%;
+    height: 297/@rem;
+    background: #fff;
+    margin-top: 20/@rem;
+    .Ordera{
+        width: 100%;
+        height:98/@rem; 
+     //    position: absolute;
+     //    top: 26/@rem;
+     //    left: 5%;
+         // margin-top: 26/@rem;
+        border-bottom:1px solid #dcdcdc;
+     //    margin-left: 5%;
+        a{
+         display: block;
+         width: 45/@rem;
+         height: 46/@rem;
+         margin-left: 5%;
+         float: left;
+         margin-top: 25/@rem;
+         img{
+             width: 45/@rem;
+             height: 46/@rem;
+             background-size:100% 100%; 
+         }
+        }
+        h1{
+            width: 50%;
+            height: 36/@rem;
+            font-size: 32/@rem;
+            font-weight: 300;
+            float: left;
+            display: block;
+            margin-top: 30/@rem;
+         //    border: @border;
+            margin-left: 30/@rem;
+ 
+        }
+        b{
+            width: 16/@rem;
+            height: 26/@rem;
+            float: right;
+            margin-right: 5%;
+            display: block;
+            margin-top:30/@rem; 
+            img{
+             width: 16/@rem;
+             height: 26/@rem;
+             background-size:100% 100%; 
+            }
+        }
+     }
+     .Orderd{
+         width: 100%;
+         height: 98/@rem;
+         text-align: center;
+         line-height: 98/@rem;
+         p{
+            width: 100%;
+            height: 98/@rem;
+            text-align: center;
+            line-height: 98/@rem;
+            color:#b8123e;
+            font-size: 32/@rem;
+            font-weight: 500;
+         }
+     }
+}
+.Ordere{
+    width: 100%;
+    height: 107/@rem;
+     background: #fff;
+     margin-top: 20/@rem;
+     ul{
+         width: 100%;
+         // margin-left: 5%;
+      
+         li{
+             a{
+             width: 25%;
+             height: 107/@rem;
+             float: left;
+             // border: @border;
+            img{
+                 width: 44/@rem;
+                 height:46/@rem;
+                 display: block;
+                 background-size:100% 100%; 
+                 margin-top: 16/@rem;
+                 margin-left: 74/@rem;
+                 float: left;
+             }
+             b{
+                 width: 100%;
+                 height: 18/@rem;
+                 display: block;
+                 margin-top: 15/@rem;
+                 font-size: 20/@rem;
+                 text-align: center;
+                 line-height: 18/@rem;
+                 float: left;
+                 color: #aaaaaa;
+             }
+             .wd{
+                 color: #b8123e;
+             }
+         }
+        }
+         
+     }
+     
+    
+ }

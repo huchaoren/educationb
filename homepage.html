@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="./dist/css/swiper.min.css ">
+    <link rel="stylesheet" href="./dist/css/animate.css ">
+    <script src="./dist/js/swiper.min.js"></script>
+    <!-- 自己写的写在下面后期好维护 -->
+    <link rel="stylesheet" href="./css//homepage.css">
+    <link rel="stylesheet" href="./css//ordinary.css">
+    <title>主页</title>
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport " content="width=device-width,initial-scale=' + pixelRatio + ' ,minimum-scale=' + pixelRatio + ' ,maximum-scale=' + pixelRatio + ' " />'); //动态控制像素比
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px ";
+    </script>
+
+</head>
+
+<body>
+    <!-- 轮播部分 -->
+    <header class="header-box">
+        <div class="ss">
+            <input type="text" placeholder="请输入关键词">
+            <h1>课程</h1>
+            <b></b>
+            <!-- <a></a> -->
+            <span><img src="./img/ios/ss.png" alt=""></span>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/ios/b1.png"></div>
+                <div class="swiper-slide"><img src="img/ios/b2.png"></div>
+                <div class="swiper-slide"><img src="img/ios/b3.png"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="./dist/js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </header>
+    <div class="classification">
+        <ul>
+            <li>
+                <img src="./img/ios/y1.png" alt="">
+                <b>定制教育</b>
+            </li>
+            <li>
+                <img src="./img/ios/y2.png" alt="">
+                <b>签约机构</b>
+            </li>
+            <li>
+                <img src="./img/ios/y3.png" alt="">
+                <b>名师推荐</b>
+            </li>
+            <li>
+                <img src="./img/ios/y4.png" alt="">
+                <b>全部课程</b>
+            </li>
+        </ul>
+    </div>
+    <div class="Cultural">
+        <div class="CulturalA">
+            <h1>文化才艺</h1>
+            <b><img src="./img/ios/z.png" alt=""></b>
+        </div>
+        <div class="CulturalB">
+            <img src="./img/ios/k1.png" alt="">
+            <a>金宝贝早教中心</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k2.png" alt="">
+            <a>台湾长颈鹿美语昆山校</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k3.png" alt="">
+            <a>精锐教育</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+    </div>
+    <!-- 早教益智 -->
+    <div class="Cultural">
+        <div class="CulturalA">
+            <h1>早教益智</h1>
+            <b><img src="./img/ios/z.png" alt=""></b>
+        </div>
+        <div class="CulturalB">
+            <img src="./img/ios/k4.png" alt="">
+            <a>金宝贝早教中心</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k5.png" alt="">
+            <a>台湾长颈鹿美语昆山校</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k3.png" alt="">
+            <a>精锐教育</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+    </div>
+    <!-- 外国留学 -->
+    <div class="Cultural">
+        <div class="CulturalA">
+            <h1>外语留学</h1>
+            <b><img src="./img/ios/z.png" alt=""></b>
+        </div>
+        <div class="CulturalB">
+            <img src="./img/ios/k6.png" alt="">
+            <a>金宝贝早教中心</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k7.png" alt="">
+            <a>台湾长颈鹿美语昆山校</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="CulturalB">
+            <img src="./img/ios/k8.png" alt="">
+            <a>精锐教育</a>
+            <p>三星级</p>
+            <div class="text">
+                <h2>好评率：100%</h2>
+                <h3>评分：5.0</h3>
+            </div>
+            <div class="textA">
+                <h4>人气:834</h4>
+                <h5>信用:3</h5>
+            </div>
+        </div>
+    </div>
+    <!-- 底层 -->
+    <div class="Ordere">
+        <ul>
+            <li class="OrdereA" href="">
+                <a href="./homepage.html">
+                    <img src="./img/ios/yy.png" alt="">
+                    <!-- <b></b> -->
+                    <b>主页</b>
+                </a>
+            </li>
+            <li class="OrdereB">
+                <a href="">
+                    <img src="./img/ios/fl@2x.png" alt="">
+                    <!-- <b></b> -->
+                    <b href="">分类</b>
+                </a>
+            </li>
+            <li class="OrdereC">
+                <!-- <b></b> -->
+                <a>
+                    <img src="./img/ios/fb@2x.png" alt="">
+                    <b href="">发布</b>
+                </a>
+            </li>
+            <li class="OrdereD">
+                <!-- <b></b> -->
+                <a href="./Myorder.html">
+                    <img src="./img/ios/yy4.png" alt="">
+                    <b href="" class="">我的</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

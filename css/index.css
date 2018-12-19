@@ -1,0 +1,425 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000032}}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+figcaption,
+figure,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000033}}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1 Lucida Grande, 'Microsoft YaHei', "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000034}}
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000035}}
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000036}}
+h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000037}}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000038}}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\000039}}
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: "Courier New", Courier, monospace;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000310}}
+small {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000311}}
+ul,
+ol,
+li {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000312}}
+a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000313}}
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000314}}
+q:before,
+q:after {
+  content: '';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000315}}
+legend {
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000316}}
+fieldset,
+img {
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000317}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000318}}
+hr {
+  border: 0;
+  height: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000319}}
+* {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000320}}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000331}}
+.head_box {
+  width: 100%;
+  height: 3.97333333rem;
+  background: #b8123e;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000336}}
+.head_box .top {
+  width: 90%;
+  height: 2.58666667rem;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000345}}
+.head_box .top .topA {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-size: 100% 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000352}}
+.head_box .top h1 {
+  width: 60%;
+  height: 0.46666667rem;
+  display: inline-block;
+  float: left;
+  color: #fff;
+  font-size: 0.45333333rem;
+  font-weight: 300;
+  margin-top: 0.33333333rem;
+  margin-left: 0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000364}}
+.head_box .top b {
+  width: 6.33333333rem;
+  height: 0.32rem;
+  color: #fff;
+  font-size: 0.30666667rem;
+  margin-top: 0.28rem;
+  font-weight: 200;
+  line-height: 0.32rem;
+  float: left;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000379}}
+.head_box .top a {
+  width: 0.24rem;
+  height: 0.4rem;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0.76rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000387}}
+.head_box .top a img {
+  width: 0.24rem;
+  height: 0.4rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\0000396}}
+.Order {
+  width: 100%;
+  height: 5.29333333rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003102}}
+.Order .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003111}}
+.Order .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003118}}
+.Order .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003124}}
+.Order .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003136}}
+.Order .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003143}}
+.Order .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003152}}
+.Orderb {
+  width: 100%;
+  height: 3.96rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003157}}
+.Orderb .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003166}}
+.Orderb .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003173}}
+.Orderb .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003179}}
+.Orderb .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003191}}
+.Orderb .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003198}}
+.Orderb .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003206}}
+.Orderc {
+  width: 100%;
+  height: 3.96rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003211}}
+.Orderc .Ordera {
+  width: 100%;
+  height: 1.30666667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003220}}
+.Orderc .Ordera a {
+  display: block;
+  width: 0.6rem;
+  height: 0.61333333rem;
+  margin-left: 5%;
+  float: left;
+  margin-top: 0.33333333rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003227}}
+.Orderc .Ordera a img {
+  width: 0.6rem;
+  height: 0.61333333rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003233}}
+.Orderc .Ordera h1 {
+  width: 50%;
+  height: 0.48rem;
+  font-size: 0.42666667rem;
+  font-weight: 300;
+  float: left;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003245}}
+.Orderc .Ordera b {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  float: right;
+  margin-right: 5%;
+  display: block;
+  margin-top: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003252}}
+.Orderc .Ordera b img {
+  width: 0.21333333rem;
+  height: 0.34666667rem;
+  background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003259}}
+.Orderc .Orderd {
+  width: 100%;
+  height: 1.30666667rem;
+  text-align: center;
+  line-height: 1.30666667rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003264}}
+.Orderc .Orderd p {
+  width: 100%;
+  height: 1.30666667rem;
+  text-align: center;
+  line-height: 1.30666667rem;
+  color: #b8123e;
+  font-size: 0.42666667rem;
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003275}}
+.Ordere {
+  width: 100%;
+  height: 1.42666667rem;
+  background: #fff;
+  margin-top: 0.26666667rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003280}}
+.Ordere ul {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003285}}
+.Ordere ul li a {
+  width: 25%;
+  height: 1.42666667rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003290}}
+.Ordere ul li a img {
+  width: 0.58666667rem;
+  height: 0.61333333rem;
+  display: block;
+  background-size: 100% 100%;
+  margin-top: 0.21333333rem;
+  margin-left: 0.98666667rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003299}}
+.Ordere ul li a b {
+  width: 100%;
+  height: 0.24rem;
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.26666667rem;
+  text-align: center;
+  line-height: 0.24rem;
+  float: left;
+  color: #aaaaaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/73144\/Desktop\/education\/css\/index\.less}line{font-family:\00003310}}
+.Ordere ul li a .wd {
+  color: #b8123e;
+}
